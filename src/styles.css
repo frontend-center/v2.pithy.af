@@ -110,9 +110,6 @@ html.wf-active .sans-serif {
   font-size: 3.25rem;
   line-height: 1.1;
 }
-html:not(.wf-active) .Quote_Short {
-  font-weight: 400;
-}
 @media (max-width: 40em) {
   .Quote_Short {
     font-size: 2.5rem;
@@ -127,6 +124,7 @@ html:not(.wf-active) .Quote_Short {
    recalculated at the higher font-size. */
 html:not(.wf-active) .Quote_Short {
   letter-spacing: -0.05em;
+  font-weight: 400;
 }
 
 .Quote_Short em {
